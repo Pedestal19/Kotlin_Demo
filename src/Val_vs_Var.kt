@@ -16,4 +16,5 @@ fun main(args:Array<String>){
 //    github = "dummy"
 //    val cannot be reassigned
 
+//    define variables has var if they are not going to change
 }
