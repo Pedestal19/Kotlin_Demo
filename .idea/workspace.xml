@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c973638-b41f-4ee6-b5d2-991d9c5f9ecf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SimpleNestedIf.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SimpleWhen.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,15 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ConvertDataType.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ConvertDataType.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Operations.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Operations.kt">
           <provider selected="true" editor-type-id="text-editor">
@@ -98,11 +89,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleNestedIf.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SimpleNestedIf.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SimpleNestedIf.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleWhen.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SimpleWhen.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -138,6 +138,7 @@
         <option value="$PROJECT_DIR$/src/SimpleIfElse.kt" />
         <option value="$PROJECT_DIR$/src/SimpleIfElseIF.kt" />
         <option value="$PROJECT_DIR$/src/SimpleNestedIf.kt" />
+        <option value="$PROJECT_DIR$/src/SimpleWhen.kt" />
       </list>
     </option>
   </component>
@@ -206,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.SimpleNestedIfKt">
+  <component name="RunManager" selected="Kotlin.SimpleWhenKt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -225,16 +226,6 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
-    </configuration>
-    <configuration name="LogicConditionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="Kotlin_Demo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="LogicConditionKt" />
-      <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration name="SimpleIfElseIFKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin_Demo" />
@@ -276,6 +267,16 @@
       <option name="MAIN_CLASS_NAME" value="SimpleNestedIfKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
+    <configuration name="SimpleWhenKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Kotlin_Demo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="SimpleWhenKt" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -299,19 +300,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Kotlin.LogicConditionKt" />
       <item itemvalue="Kotlin.SimpleIfKt" />
       <item itemvalue="Kotlin.SimpleIfElseKt" />
       <item itemvalue="Kotlin.SimpleIfElseIFKt" />
       <item itemvalue="Kotlin.SimpleNestedIfKt" />
+      <item itemvalue="Kotlin.SimpleWhenKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SimpleWhenKt" />
         <item itemvalue="Kotlin.SimpleNestedIfKt" />
         <item itemvalue="Kotlin.SimpleIfElseIFKt" />
         <item itemvalue="Kotlin.SimpleIfElseKt" />
         <item itemvalue="Kotlin.SimpleIfKt" />
-        <item itemvalue="Kotlin.LogicConditionKt" />
       </list>
     </recent_temporary>
   </component>
@@ -331,19 +332,18 @@
       <workItem from="1583217977052" duration="196000" />
       <workItem from="1583218206672" duration="66000" />
       <workItem from="1583218296922" duration="4959000" />
-      <workItem from="1583330085368" duration="10020000" />
+      <workItem from="1583330085368" duration="10282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15726000" />
+    <option name="totallyTimeSpent" value="15988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.51119405" side_tool="true" visible="true" weight="0.31135136" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5042644" side_tool="true" visible="true" weight="0.39891893" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Flutter Outline" order="3" />
@@ -353,18 +353,18 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4968017" weight="0.39891893" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49573562" visible="true" weight="0.39891893" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.48987207" weight="0.32864866" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.48880598" weight="0.32864866" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="TCPMON" order="3" />
       <window_info anchor="bottom" id="Flutter Performance" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48880598" visible="true" weight="0.31135136" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48827294" weight="0.31135136" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989339" weight="0.32972974" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14605543" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14605543" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Flutter Inspector" order="3" />
@@ -421,8 +421,20 @@
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/SimpleNestedIf.kt</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/SimpleWhen.kt</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -572,6 +584,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SimpleWhen.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
