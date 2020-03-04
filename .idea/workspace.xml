@@ -204,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.SimpleIfKt">
+  <component name="RunManager" selected="Kotlin.SimpleIfElseKt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -254,14 +254,14 @@
       <option name="MAIN_CLASS_NAME" value="LogicConditionKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
-    <configuration name="PrioritiesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleIfElseKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin_Demo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="PrioritiesKt" />
+      <option name="MAIN_CLASS_NAME" value="SimpleIfElseKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration name="SimpleIfKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
@@ -297,19 +297,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Kotlin.PrioritiesKt" />
       <item itemvalue="Kotlin.IncrementAndDecrementKt" />
       <item itemvalue="Kotlin.FindMyAgeKt" />
       <item itemvalue="Kotlin.LogicConditionKt" />
       <item itemvalue="Kotlin.SimpleIfKt" />
+      <item itemvalue="Kotlin.SimpleIfElseKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SimpleIfElseKt" />
         <item itemvalue="Kotlin.SimpleIfKt" />
         <item itemvalue="Kotlin.LogicConditionKt" />
         <item itemvalue="Kotlin.FindMyAgeKt" />
         <item itemvalue="Kotlin.IncrementAndDecrementKt" />
-        <item itemvalue="Kotlin.PrioritiesKt" />
       </list>
     </recent_temporary>
   </component>
