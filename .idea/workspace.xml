@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c973638-b41f-4ee6-b5d2-991d9c5f9ecf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MakingDecisionExpression.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SimpleForLoop.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,15 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Priorities.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Priorities.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="IncrementAndDecrement.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IncrementAndDecrement.kt">
           <provider selected="true" editor-type-id="text-editor">
@@ -98,11 +89,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MakingDecisionExpression.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MakingDecisionExpression.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MakingDecisionExpression.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="357">
+              <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleForLoop.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SimpleForLoop.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -140,6 +140,7 @@
         <option value="$PROJECT_DIR$/src/SimpleNestedIf.kt" />
         <option value="$PROJECT_DIR$/src/SimpleWhen.kt" />
         <option value="$PROJECT_DIR$/src/MakingDecisionExpression.kt" />
+        <option value="$PROJECT_DIR$/src/SimpleForLoop.kt" />
       </list>
     </option>
   </component>
@@ -208,7 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.MakingDecisionExpressionKt">
+  <component name="RunManager" selected="Kotlin.SimpleForLoopKt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -238,6 +239,16 @@
       <option name="MAIN_CLASS_NAME" value="MakingDecisionExpressionKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
+    <configuration name="SimpleForLoopKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Kotlin_Demo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="SimpleForLoopKt" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
     <configuration name="SimpleIfElseIFKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin_Demo" />
       <option name="VM_PARAMETERS" />
@@ -246,16 +257,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="SimpleIfElseIFKt" />
-      <option name="WORKING_DIRECTORY" />
-    </configuration>
-    <configuration name="SimpleIfElseKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="Kotlin_Demo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="SimpleIfElseKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration name="SimpleNestedIfKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
@@ -301,19 +302,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Kotlin.SimpleIfElseKt" />
       <item itemvalue="Kotlin.SimpleIfElseIFKt" />
       <item itemvalue="Kotlin.SimpleNestedIfKt" />
       <item itemvalue="Kotlin.SimpleWhenKt" />
       <item itemvalue="Kotlin.MakingDecisionExpressionKt" />
+      <item itemvalue="Kotlin.SimpleForLoopKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SimpleForLoopKt" />
         <item itemvalue="Kotlin.MakingDecisionExpressionKt" />
         <item itemvalue="Kotlin.SimpleWhenKt" />
         <item itemvalue="Kotlin.SimpleNestedIfKt" />
         <item itemvalue="Kotlin.SimpleIfElseIFKt" />
-        <item itemvalue="Kotlin.SimpleIfElseKt" />
       </list>
     </recent_temporary>
   </component>
@@ -333,19 +334,19 @@
       <workItem from="1583217977052" duration="196000" />
       <workItem from="1583218206672" duration="66000" />
       <workItem from="1583218296922" duration="4959000" />
-      <workItem from="1583330085368" duration="10623000" />
+      <workItem from="1583330085368" duration="12123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16329000" />
+    <option name="totallyTimeSpent" value="17829000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.51226014" side_tool="true" visible="true" weight="0.31135136" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5127932" side_tool="true" visible="true" weight="0.31135136" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Flutter Outline" order="3" />
@@ -357,14 +358,14 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49573562" weight="0.39891893" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.48880598" weight="0.32864866" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.48827294" weight="0.32864866" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="TCPMON" order="3" />
       <window_info anchor="bottom" id="Flutter Performance" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48773986" visible="true" weight="0.31135136" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48720682" visible="true" weight="0.31135136" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989339" weight="0.32972974" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14605543" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -598,8 +599,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MakingDecisionExpression.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        <state relative-caret-position="357">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SimpleForLoop.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
