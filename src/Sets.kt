@@ -12,4 +12,11 @@ fun main (args:Array<String>){
         println(element)
     }
 
+    var setElementM = mutableSetOf(1,2,3,1,44,55,55)
+    setElementM.add(77)
+
+    for(element in setElementM){
+        println(element)
+    }
+
 }
