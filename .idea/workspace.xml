@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c973638-b41f-4ee6-b5d2-991d9c5f9ecf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HashMap.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kotlinCollections.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayList.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,15 +32,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NestedForLoop.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NestedForLoop.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -100,11 +90,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HashMap.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HashMap.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HashMap.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            <state relative-caret-position="340">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kotlinCollections.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/kotlinCollections.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -151,6 +150,7 @@
         <option value="$PROJECT_DIR$/src/Arrays.kt" />
         <option value="$PROJECT_DIR$/src/ArrayList.kt" />
         <option value="$PROJECT_DIR$/src/HashMap.kt" />
+        <option value="$PROJECT_DIR$/src/kotlinCollections.kt" />
       </list>
     </option>
   </component>
@@ -218,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.HashMapKt">
+  <component name="RunManager" selected="Kotlin.KotlinCollectionsKt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -258,16 +258,6 @@
       <option name="MAIN_CLASS_NAME" value="ArraysKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
-    <configuration name="ControlLoopKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="Kotlin_Demo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ControlLoopKt" />
-      <option name="WORKING_DIRECTORY" />
-    </configuration>
     <configuration name="HashMapKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin_Demo" />
       <option name="VM_PARAMETERS" />
@@ -276,6 +266,16 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="HashMapKt" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration name="KotlinCollectionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Kotlin_Demo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="KotlinCollectionsKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration name="StringsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
@@ -311,19 +311,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Kotlin.ControlLoopKt" />
       <item itemvalue="Kotlin.StringsKt" />
       <item itemvalue="Kotlin.ArraysKt" />
       <item itemvalue="Kotlin.ArrayListKt" />
       <item itemvalue="Kotlin.HashMapKt" />
+      <item itemvalue="Kotlin.KotlinCollectionsKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.KotlinCollectionsKt" />
         <item itemvalue="Kotlin.HashMapKt" />
         <item itemvalue="Kotlin.ArrayListKt" />
         <item itemvalue="Kotlin.ArraysKt" />
         <item itemvalue="Kotlin.StringsKt" />
-        <item itemvalue="Kotlin.ControlLoopKt" />
       </list>
     </recent_temporary>
   </component>
@@ -344,12 +344,12 @@
       <workItem from="1583218206672" duration="66000" />
       <workItem from="1583218296922" duration="4959000" />
       <workItem from="1583330085368" duration="16454000" />
-      <workItem from="1583626678755" duration="7229000" />
+      <workItem from="1583626678755" duration="8432000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29389000" />
+    <option name="totallyTimeSpent" value="30592000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1934" height="1047" extended-state="0" />
@@ -749,8 +749,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HashMap.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="340">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kotlinCollections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
         </state>
       </provider>
     </entry>
