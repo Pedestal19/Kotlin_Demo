@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c973638-b41f-4ee6-b5d2-991d9c5f9ecf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ArrayList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashMap.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayList.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,15 +24,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MakingDecisionExpression.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MakingDecisionExpression.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -99,11 +91,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayList.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArrayList.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArrayList.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+            <state relative-caret-position="373">
+              <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HashMap.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HashMap.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -149,6 +150,7 @@
         <option value="$PROJECT_DIR$/src/Strings.kt" />
         <option value="$PROJECT_DIR$/src/Arrays.kt" />
         <option value="$PROJECT_DIR$/src/ArrayList.kt" />
+        <option value="$PROJECT_DIR$/src/HashMap.kt" />
       </list>
     </option>
   </component>
@@ -216,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.ArrayListKt">
+  <component name="RunManager" selected="Kotlin.HashMapKt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -266,14 +268,14 @@
       <option name="MAIN_CLASS_NAME" value="ControlLoopKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
-    <configuration name="DoWhileKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="HashMapKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin_Demo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="DoWhileKt" />
+      <option name="MAIN_CLASS_NAME" value="HashMapKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration name="StringsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
@@ -309,19 +311,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Kotlin.DoWhileKt" />
       <item itemvalue="Kotlin.ControlLoopKt" />
       <item itemvalue="Kotlin.StringsKt" />
       <item itemvalue="Kotlin.ArraysKt" />
       <item itemvalue="Kotlin.ArrayListKt" />
+      <item itemvalue="Kotlin.HashMapKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.HashMapKt" />
         <item itemvalue="Kotlin.ArrayListKt" />
         <item itemvalue="Kotlin.ArraysKt" />
         <item itemvalue="Kotlin.StringsKt" />
         <item itemvalue="Kotlin.ControlLoopKt" />
-        <item itemvalue="Kotlin.DoWhileKt" />
       </list>
     </recent_temporary>
   </component>
@@ -342,12 +344,12 @@
       <workItem from="1583218206672" duration="66000" />
       <workItem from="1583218296922" duration="4959000" />
       <workItem from="1583330085368" duration="16454000" />
-      <workItem from="1583626678755" duration="6233000" />
+      <workItem from="1583626678755" duration="7229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28393000" />
+    <option name="totallyTimeSpent" value="29389000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1934" height="1047" extended-state="0" />
@@ -740,8 +742,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ArrayList.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        <state relative-caret-position="373">
+          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashMap.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
         </state>
       </provider>
     </entry>

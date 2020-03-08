@@ -23,7 +23,7 @@ fun main(args:Array<String>){
 
     println(" all element by index")
     for(index in 0..arraylist.size-1){
-        println(arraylist.get(index))    
+        println(arraylist.get(index))
     }
 
     //Search
