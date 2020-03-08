@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c973638-b41f-4ee6-b5d2-991d9c5f9ecf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Strings.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,15 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SimpleIf.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SimpleIf.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SimpleNestedIf.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SimpleNestedIf.kt">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,11 +90,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Strings.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Strings.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Strings.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="238">
+              <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Arrays.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Arrays.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -147,6 +147,7 @@
         <option value="$PROJECT_DIR$/src/DoWhile.kt" />
         <option value="$PROJECT_DIR$/src/ControlLoop.kt" />
         <option value="$PROJECT_DIR$/src/Strings.kt" />
+        <option value="$PROJECT_DIR$/src/Arrays.kt" />
       </list>
     </option>
   </component>
@@ -214,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.StringsKt">
+  <component name="RunManager" selected="Kotlin.ArraysKt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -234,6 +235,16 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="ArraysKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Kotlin_Demo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ArraysKt" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
     <configuration name="ControlLoopKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin_Demo" />
       <option name="VM_PARAMETERS" />
@@ -252,16 +263,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="DoWhileKt" />
-      <option name="WORKING_DIRECTORY" />
-    </configuration>
-    <configuration name="NestedForLoopKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="Kotlin_Demo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="NestedForLoopKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration name="StringsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
@@ -307,19 +308,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Kotlin.NestedForLoopKt" />
       <item itemvalue="Kotlin.WhileLoopKt" />
       <item itemvalue="Kotlin.DoWhileKt" />
       <item itemvalue="Kotlin.ControlLoopKt" />
       <item itemvalue="Kotlin.StringsKt" />
+      <item itemvalue="Kotlin.ArraysKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ArraysKt" />
         <item itemvalue="Kotlin.StringsKt" />
         <item itemvalue="Kotlin.ControlLoopKt" />
         <item itemvalue="Kotlin.DoWhileKt" />
         <item itemvalue="Kotlin.WhileLoopKt" />
-        <item itemvalue="Kotlin.NestedForLoopKt" />
       </list>
     </recent_temporary>
   </component>
@@ -340,12 +341,12 @@
       <workItem from="1583218206672" duration="66000" />
       <workItem from="1583218296922" duration="4959000" />
       <workItem from="1583330085368" duration="16454000" />
-      <workItem from="1583626678755" duration="2076000" />
+      <workItem from="1583626678755" duration="4238000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24236000" />
+    <option name="totallyTimeSpent" value="26398000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1934" height="1047" extended-state="0" />
@@ -715,10 +716,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/text/Strings.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="134" column="25" selection-start-line="134" selection-start-column="25" selection-end-line="134" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Strings.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="238">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arrays.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
         </state>
       </provider>
     </entry>
