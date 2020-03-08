@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c973638-b41f-4ee6-b5d2-991d9c5f9ecf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Functions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/functionOverload.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,15 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SimpleWhen.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SimpleWhen.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SimpleForLoop.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SimpleForLoop.kt">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,11 +89,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Functions.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Functions.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Functions.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+            <state relative-caret-position="493">
+              <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functionOverload.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/functionOverload.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -153,6 +152,7 @@
         <option value="$PROJECT_DIR$/src/kotlinCollections.kt" />
         <option value="$PROJECT_DIR$/src/Sets.kt" />
         <option value="$PROJECT_DIR$/src/Functions.kt" />
+        <option value="$PROJECT_DIR$/src/functionOverload.kt" />
       </list>
     </option>
   </component>
@@ -220,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.FunctionsKt">
+  <component name="RunManager" selected="Kotlin.FunctionOverloadKt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -240,14 +240,14 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ArrayListKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="FunctionOverloadKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin_Demo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ArrayListKt" />
+      <option name="MAIN_CLASS_NAME" value="FunctionOverloadKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration name="FunctionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
@@ -313,19 +313,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Kotlin.ArrayListKt" />
       <item itemvalue="Kotlin.HashMapKt" />
       <item itemvalue="Kotlin.KotlinCollectionsKt" />
       <item itemvalue="Kotlin.SetsKt" />
       <item itemvalue="Kotlin.FunctionsKt" />
+      <item itemvalue="Kotlin.FunctionOverloadKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.FunctionOverloadKt" />
         <item itemvalue="Kotlin.FunctionsKt" />
         <item itemvalue="Kotlin.SetsKt" />
         <item itemvalue="Kotlin.KotlinCollectionsKt" />
         <item itemvalue="Kotlin.HashMapKt" />
-        <item itemvalue="Kotlin.ArrayListKt" />
       </list>
     </recent_temporary>
   </component>
@@ -346,12 +346,12 @@
       <workItem from="1583218206672" duration="66000" />
       <workItem from="1583218296922" duration="4959000" />
       <workItem from="1583330085368" duration="16454000" />
-      <workItem from="1583626678755" duration="11052000" />
+      <workItem from="1583626678755" duration="11318000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33212000" />
+    <option name="totallyTimeSpent" value="33478000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1934" height="1047" extended-state="0" />
@@ -778,8 +778,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Functions.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        <state relative-caret-position="493">
+          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/functionOverload.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
         </state>
       </provider>
     </entry>
