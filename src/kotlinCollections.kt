@@ -14,9 +14,11 @@ fun main(args:Array<String>){
     var ar = arrayOf(1,10,22,11)
     println(ar[0])
 
-    var list = listOf(11, 22, 33, 22)
+//    var list = listOf(11, 22, 33, 22)
 //    list[0]=22 list immutable, cannot change value
-   
+
+    var list = mutableListOf(11, 22, 33, 22)
+    list[0]=22
 
     for(item in list){
         println(item)
